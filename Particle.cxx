@@ -1,7 +1,10 @@
 //Particle.cxx
+//ROOT includes
 #include <TVector3.h>
-#include <Particle.h>
 #include <TMath.h>
+//Custom class
+#include "Particle.h"
+
 
 ClassImp(Particle)
 
