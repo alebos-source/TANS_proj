@@ -37,4 +37,11 @@ class Particle{
 		//return position vector (3D)
 		inline TVector3 Particle::GetDirection() const {return fMom.Unit();}
 		//return direction vector (3D)
+	
+		//SETTERS
+		inline void Particle::SetPosition(TVector3 aPos){fPos = aPos;}
+		inline void Particle::SetXYZ(double xx, double yy, double zz){fPos = {xx,yy,zz};}
+		inline void Particle::SetDirection()
+		void 
+		
 }
