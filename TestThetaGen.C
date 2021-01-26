@@ -1,8 +1,8 @@
 #include <TCanvas.h>
 #include <TF1.h>
 #include <TH1D.h>
-#include <TSystem.h>
-#include <TROOT.h>
+//#include <TSystem.h>
+//#include <TROOT.h>
 #include <TMath.h>
 #include <TStopwatch.h>
 #include "ThetaGenerator.h"
