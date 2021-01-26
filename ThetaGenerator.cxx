@@ -15,7 +15,7 @@ const double PI = 3.141592653589793;
 /*
 NOTE ON ASSIGNED PSEUDORAPIDITY DISTRIBUTION
 
-The rapidity p.d.f. can be chosen to be the sum of two Gaussian functions symmetrically displaced with respect to midrapidity y0:
+The rapidity p.d.f. can be chosen to be the sum of two Gaussian functions symmetrically displaced with respect to midrapidity, 0., by y0:
 f(y) = [exp(-(y-y0)**2/(2*sigma**2))+exp(-(y+y0)**2/(2*sigma**2))]/(2*sigma*sqrt(2*PI)
 
 (See for example https://www.hindawi.com/journals/ahep/2014/863863/ )
@@ -39,7 +39,7 @@ TF1* g = new TF1("g","(1+tan(x/2)*tan(x/2))/(2*tan(x/2))*(exp(-(-log(tan(x/2))-0
 
 g->Draw();
 
-In order to generate random directions, theta is extracted from this g with the Acceptance/Rejection method. 
+In order to generate random directions, theta is extracted from this g using the Acceptance/Rejection method. 
 */
 
 //Standard ctor
